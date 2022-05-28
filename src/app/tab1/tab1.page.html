@@ -1,17 +1,142 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="tertiary">
     <ion-title>
-      Tab 1
+      Narsingh Vatika
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-searchbar></ion-searchbar>
+  <!-- <ion-item button="true" id="open-date-input" lines="full">
+    <ion-label>Date</ion-label>
+    <ion-text slot="end">{{ dateValue }}</ion-text>
+    <ion-popover trigger="open-date-input" show-backdrop="false">
+      <ng-template>
+        <ion-datetime #popoverDatetime presentation="date"
+          (ionChange)="dateValue = formatDate(popoverDatetime.value)"></ion-datetime>
+      </ng-template>
+    </ion-popover>
+  </ion-item> -->
+ 
+ 
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>25-05-2022</ion-card-subtitle>
+      <ion-card-title>Siddharth Verma</ion-card-title>
+    </ion-card-header>
+   <ion-card-content>
+    <ion-row>
+      <ion-col>
+        <ion-icon name="call"></ion-icon>
+        <span> Contact:-</span> 9111554005
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-icon name="home"></ion-icon>
+        <span> Package:-</span> Gold
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-icon name="card"></ion-icon>
+        <span> Amount:-</span> 10,000
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-icon name="notifications-circle"></ion-icon>
+        <span> Remark:-</span> 
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-icon name="fast-food"></ion-icon>
+        <span> Catering:-</span> Yes
+      </ion-col>
+    </ion-row>
+   </ion-card-content>
+  </ion-card>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>1-06-2022</ion-card-subtitle>
+      <ion-card-title>Amit Singh</ion-card-title>
+    </ion-card-header>
+   <ion-card-content>
+    <ion-row>
+      <ion-col>
+        <ion-icon name="call"></ion-icon>
+        <span> Contact:-</span> 9222554005
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-icon name="home"></ion-icon>
+        <span> Package:-</span> Silver 
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-icon name="card"></ion-icon>
+        <span> Amount:-</span> 1,00,000
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-icon name="notifications-circle"></ion-icon>
+        <span> Remark:-</span> Birthday Party
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-icon name="fast-food"></ion-icon>
+        <span> Catering:-</span> No
+      </ion-col>
+    </ion-row>
+   </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>30-05-2022</ion-card-subtitle>
+      <ion-card-title>Krisha Kapoor</ion-card-title>
+    </ion-card-header>
+   <ion-card-content>
+    <ion-row>
+      <ion-col>
+        <ion-icon name="call"></ion-icon>
+        <span> Contact:-</span> 9111554005
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-icon name="home"></ion-icon>
+        <span> Package:-</span> Platinum
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-icon name="card"></ion-icon>
+        <span> Amount:-</span> 70,000
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-icon name="notifications-circle"></ion-icon>
+        <span> Remark:-</span> 
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-icon name="fast-food"></ion-icon>
+        <span> Catering:-</span> Yes
+      </ion-col>
+    </ion-row>
+   </ion-card-content>
+  </ion-card>
+
+
+  <!-- <app-explore-container name="Upcoming Events"></app-explore-container> -->
 </ion-content>
